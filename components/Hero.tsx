@@ -1,6 +1,6 @@
 'use client'
 
-import { Mail, Github, Linkedin, ArrowDown } from 'lucide-react'
+import { Mail, Github, Linkedin, ArrowDown, FileText } from 'lucide-react'
 import Link from 'next/link'
 
 const stats = [
@@ -45,10 +45,21 @@ export default function Hero() {
             Software Engineer · Seattle, WA
           </div>
 
-          {/* Name */}
-          <h1 className="text-5xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight text-zinc-900 leading-none mb-4">
-            Yoomin Choi
-          </h1>
+          {/* Name + Resume */}
+          <div className="mb-5 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
+            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight text-zinc-900 leading-none">
+              Yoomin Choi
+            </h1>
+            <a
+              href="/Yoomin-Choi-Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-2 rounded-2xl border border-blue-300 bg-blue-50 px-6 py-3 text-base font-semibold text-blue-800 shadow-sm transition-all duration-200 hover:border-blue-400 hover:bg-blue-100 hover:text-blue-900"
+            >
+              <FileText size={18} />
+              Resume
+            </a>
+          </div>
 
           {/* Tagline */}
           <h2 className="text-2xl sm:text-3xl font-semibold mb-6 leading-snug text-zinc-900">
