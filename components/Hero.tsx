@@ -54,13 +54,14 @@ export default function Hero() {
           <h2 className="text-2xl sm:text-3xl font-semibold mb-6 leading-snug text-zinc-900">
             <span className="gradient-text">Founder & Full-Stack Engineer</span>
             <br />
-            <span className="text-zinc-500">who builds and ships at scale.</span>
+            <span className="text-zinc-500">who builds and ships at scale & loves customers.</span>
           </h2>
 
           <p className="text-zinc-700 text-lg leading-relaxed max-w-2xl mb-4">
             I don&apos;t wait to be told what to build. In high school I bootstrapped{' '}
             <span className="font-semibold text-zinc-900">Passtory</span> to 100k+ users and a Korean patent. At Georgia Tech I founded{' '}
-            <span className="font-semibold text-zinc-900">uniBuzzy</span>, got accepted into CREATE-X, and won $10k in grants. Now I&apos;m a software engineer building AI systems and infrastructure at scale.
+            <span className="font-semibold text-zinc-900">uniBuzzy</span>, got accepted into CREATE-X, and won $10k in grants.
+            <br></br>Now I&apos;m a <span className="font-semibold text-zinc-900">customer-obsessed</span> software engineer building AI systems and infrastructure at scale.
           </p>
           <p className="text-zinc-500 text-base leading-relaxed max-w-2xl mb-10">
             I go from zero to shipped — solo if I have to.
