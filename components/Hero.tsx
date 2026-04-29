@@ -1,6 +1,6 @@
 'use client'
 
-import { Mail, Github, Linkedin, ArrowDown, MessageCircle } from 'lucide-react'
+import { Mail, Github, Linkedin, ArrowDown } from 'lucide-react'
 import Link from 'next/link'
 
 const stats = [
@@ -22,7 +22,7 @@ const stats = [
   },
 ]
 
-export default function Hero({ onOpenChat }: { onOpenChat?: () => void }) {
+export default function Hero() {
   return (
     <section className="relative min-h-screen flex flex-col justify-center overflow-hidden bg-[#fcfcfb]">
       {/* Subtle grid background */}
@@ -75,15 +75,6 @@ export default function Hero({ onOpenChat }: { onOpenChat?: () => void }) {
               <Mail size={15} />
               Get in touch
             </a>
-            {onOpenChat && (
-              <button
-                onClick={onOpenChat}
-                className="flex items-center gap-2 px-5 py-2.5 rounded-full border border-zinc-300 text-zinc-700 text-sm font-medium hover:text-zinc-900 hover:border-zinc-400 hover:bg-zinc-100 transition-all duration-200"
-              >
-                <MessageCircle size={15} />
-                Chat with me
-              </button>
-            )}
             <a
               href="https://linkedin.com/in/yoominchoi"
               target="_blank"

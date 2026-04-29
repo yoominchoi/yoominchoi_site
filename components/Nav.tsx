@@ -6,8 +6,9 @@ import Link from 'next/link'
 const links = [
   { label: 'Bio & Skills', href: '/bio-skills' },
   { label: 'Experience', href: '/experience' },
-  { label: 'Startups', href: '/projects' },
+  { label: 'Startups', href: '/startups' },
   { label: 'Achievements', href: '/achievements' },
+  { label: 'Hobbies', href: '/hobbies' },
 ]
 
 export default function Nav() {
